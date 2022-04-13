@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 990
     height: 923
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 953
     height: 384
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -122,10 +122,10 @@ MonoBehaviour:
     y: 923
     width: 1865
     height: 384
-  m_MinSize: {x: 433, y: 271}
-  m_MaxSize: {x: 14003, y: 10021}
+  m_MinSize: {x: 431, y: 271}
+  m_MaxSize: {x: 14001, y: 10021}
   vertical: 0
-  controlID: 125
+  controlID: 128
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,8 +193,8 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1307
-  m_MinSize: {x: 709, y: 492}
-  m_MaxSize: {x: 18004, y: 14042}
+  m_MinSize: {x: 707, y: 492}
+  m_MaxSize: {x: 18002, y: 14042}
   vertical: 0
   controlID: 33
 --- !u!114 &9
@@ -239,8 +239,8 @@ MonoBehaviour:
     y: 0
     width: 1865
     height: 1307
-  m_MinSize: {x: 433, y: 492}
-  m_MaxSize: {x: 14003, y: 14042}
+  m_MinSize: {x: 431, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 1
   controlID: 34
 --- !u!114 &11
@@ -288,8 +288,8 @@ MonoBehaviour:
     y: 0
     width: 875
     height: 923
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -398,20 +398,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Scripts/PlayerController
+    - Assets/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/_Scripts/PlayerController
+  - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ks14311\Documents\Programming\Brug
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b4370000
-    m_LastClickedID: 14260
-    m_ExpandedIDs: 00000000fe3600000437000000ca9a3b
+    m_SelectedIDs: 1e370000
+    m_LastClickedID: 14110
+    m_ExpandedIDs: 00000000163700001c37000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -439,7 +439,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fe360000
+    m_ExpandedIDs: 0000000016370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -623,9 +623,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.56973946, y: -7.7773085, z: 67.78082}
+    m_Target: {x: -19.907095, y: -2.4361598, z: 4.370483}
     speed: 2
-    m_Value: {x: 0.56973946, y: -7.7773085, z: 67.78082}
+    m_Value: {x: -19.907095, y: -2.4361598, z: 4.370483}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -671,13 +671,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.098833196, y: 0.01044915, z: -0.0010379162, w: 0.9950507}
+    m_Target: {x: 0.14165281, y: -0.70009285, z: 0.14483428, w: 0.6847203}
     speed: 2
-    m_Value: {x: 0.098832995, y: 0.010449128, z: -0.0010379141, w: 0.9950487}
+    m_Value: {x: 0.1416518, y: -0.70008785, z: 0.14483324, w: 0.6847154}
   m_Size:
-    m_Target: 46.036697
+    m_Target: 19.072176
     speed: 2
-    m_Value: 46.036697
+    m_Value: 19.072176
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -731,23 +731,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 18b9ffff
-      m_LastClickedID: -18152
-      m_ExpandedIDs: 18b9fffffebbffff68bdffff66fbffff8a360000
+      m_SelectedIDs: fa3b0000
+      m_LastClickedID: 15354
+      m_ExpandedIDs: b6e7ffff04ecffff10f9ffff66fbffff863a0000fa3b0000fe3b00008c3c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: SceneSwitcher
+        m_OriginalName: SceneSwitcher
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 14964
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 

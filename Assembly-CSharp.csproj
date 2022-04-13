@@ -65,9 +65,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_Scripts\InputSystem\Controls.cs" />
+    <Compile Include="Assets\_Scripts\Managers\InputManager.cs" />
+    <Compile Include="Assets\_Scripts\Managers\SceneSwitcher.cs" />
     <Compile Include="Assets\_Scripts\PlayerController\CameraController.cs" />
     <Compile Include="Assets\_Scripts\PlayerController\GroundCheck.cs" />
-    <Compile Include="Assets\_Scripts\PlayerController\InputManager.cs" />
     <Compile Include="Assets\_Scripts\PlayerController\Pickups\Coin.cs" />
     <Compile Include="Assets\_Scripts\PlayerController\PlayerController.cs" />
     <Reference Include="UnityEngine">

@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 5;
     public int score;
     public Text scoreText;
+    public int coinsRemaing;
 
 
     //jumping variables
@@ -61,10 +62,34 @@ public class PlayerController : MonoBehaviour
     {
         if (other.CompareTag("Coin"))
         {
+            
             Destroy(other.gameObject);
             score++;
             scoreText.text = "Score:" + score;
+
+            //count down the remaining coins
+            coinsRemaing--;
+            // if no more remaining coins, load the next scene
+            if (coinsRemaing == 0)
+            {
+                SceneSwitcher.instance.ChangeScene();
+            }
         }
+
+        if (other.CompareTag("Death"))
+        {
+            Reset();
+        }
+
+
+    }
+
+    public void Reset()
+    {
+        Vector3 spawn = new Vector3(0, 0, 0);
+        transform.position = spawn;
+        rb.velocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
     }
 
 }
