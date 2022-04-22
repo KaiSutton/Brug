@@ -24,9 +24,15 @@ public class PlayerController : MonoBehaviour
 
 
     // Start is called before the first frame update
+
+    //spawn vars
+    Vector3 spawn = new Vector3 (0, 1, 0);
+    
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        rb.transform.position = spawn;
     }
 
     private void FixedUpdate()
@@ -68,7 +74,7 @@ public class PlayerController : MonoBehaviour
             scoreText.text = "Score:" + score;
 
             //count down the remaining coins
-            coinsRemaing--;
+            coinsRemaing = 9;
             // if no more remaining coins, load the next scene
             if (coinsRemaing == 0)
             {
@@ -86,7 +92,6 @@ public class PlayerController : MonoBehaviour
 
     public void Reset()
     {
-        Vector3 spawn = new Vector3(0, 0, 0);
         transform.position = spawn;
         rb.velocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
