@@ -46,6 +46,7 @@ public class InputManager : MonoBehaviour
         controls.Locomotion.Jump.performed += obj => jumpPressed = true;
         controls.Locomotion.Jump.canceled += obj => jumpPressed = false;
 
+        controls.Locomotion.Skip.performed += obj => SceneSwitcher.instance.ChangeScene();
     }
 
     void OnDisable()

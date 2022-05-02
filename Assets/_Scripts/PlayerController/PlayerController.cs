@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
 
     //spawn vars
-    Vector3 spawn = new Vector3 (0, 1, 0);
+    Vector3 spawn = new Vector3 (0, 2, 40);
     
 
     void Start()
@@ -74,7 +74,8 @@ public class PlayerController : MonoBehaviour
             scoreText.text = "Score:" + score;
 
             //count down the remaining coins
-            coinsRemaing = 9;
+            
+            
             // if no more remaining coins, load the next scene
             if (coinsRemaing == 0)
             {
