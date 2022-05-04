@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
 
     //spawn vars
-    Vector3 spawn = new Vector3 (0, 2, 40);
+    Vector3 spawn = new Vector3 (0, 1, 0);
     
 
     void Start()
