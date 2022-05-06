@@ -75,6 +75,7 @@ public class PlayerController : MonoBehaviour
 
             //count down the remaining coins
             
+            coinsRemaing--;
             
             // if no more remaining coins, load the next scene
             if (coinsRemaing == 0)

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44610614, g: 0.49587333, b: 0.574517, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -740,6 +740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
   m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018,
     type: 3}
   m_PointAction: {fileID: 1054132383583890850, guid: ca9f5fa95ffab41fb9a615ab714db018,
@@ -1298,7 +1299,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 887910498}
   m_LocalRotation: {x: -0.08715578, y: -0, z: -0, w: 0.9961947}
-  m_LocalPosition: {x: 0, y: 2, z: 15}
+  m_LocalPosition: {x: 0, y: 1.73, z: 15.04}
   m_LocalScale: {x: 2.5, y: 1, z: 2.5000005}
   m_Children: []
   m_Father: {fileID: 1847869439}
@@ -2083,7 +2084,7 @@ MonoBehaviour:
   speed: 5
   score: 0
   scoreText: {fileID: 1015154995}
-  coinsRemaing: 9
+  coinsRemaing: 8
   grounded: 1
   jumpForce: 40
   groundCheck: {fileID: 1039050498}
@@ -3024,7 +3025,7 @@ GameObject:
   - component: {fileID: 2053520093}
   m_Layer: 0
   m_Name: Coins
-  m_TagString: Coin
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
